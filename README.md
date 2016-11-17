@@ -30,4 +30,62 @@ https://webcake.co/using-firebase-3-in-angular-2-and-ionic-2/
 My AuthData Provider is the same as the DataService provider in the tutorial.
 
 
+This what my package.json file looks like. It shows everything I've installed to run the app like what version of firebase I'm working with:
 
+{
+  "name": "ionic-hello-world",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "ionic:build": "ionic-app-scripts build",
+    "watch": "ionic-app-scripts watch",
+    "serve:before": "watch",
+    "emulate:before": "build",
+    "deploy:before": "build",
+    "build:before": "build",
+    "run:before": "build"
+  },
+  "dependencies": {
+    "@angular/common": "2.1.1",
+    "@angular/compiler": "2.1.1",
+    "@angular/compiler-cli": "2.1.1",
+    "@angular/core": "2.1.1",
+    "@angular/forms": "2.1.1",
+    "@angular/http": "2.1.1",
+    "@angular/platform-browser": "2.1.1",
+    "@angular/platform-browser-dynamic": "2.1.1",
+    "@angular/platform-server": "2.1.1",
+    "@ionic/app-scripts": "0.0.37-5",
+    "@ionic/storage": "1.1.6",
+    "angularfire2": "^2.0.0-beta.6",
+    "firebase": "^3.6.0",
+    "ionic-angular": "2.0.0-rc.2",
+    "ionic-native": "2.2.3",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.21"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "0.0.43",
+    "@types/request": "0.0.30",
+    "typescript": "2.0.6"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "ios",
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    }
+  ],
+  "description": "MiliMap: An Ionic project"
+}
