@@ -24,7 +24,7 @@ http://www.joshmorony.com/wp-content/uploads/2015/03/ionic2-advanced-map.zip
 
 But the code in this repository has an "add marker" button at the top right hand corner and the marker has an info window. It lets users drop a marker at their current location. 
 That's what I'd like to save to firebase.
-I tried many ways of doing this, but this code is what I came up with after I followed this tutoiral:
+I tried many ways of doing this, but the code in this repository is what I came up with after I followed this tutoiral:
 https://webcake.co/using-firebase-3-in-angular-2-and-ionic-2/
 
 My AuthData Provider is the same as the DataService provider in the tutorial.
